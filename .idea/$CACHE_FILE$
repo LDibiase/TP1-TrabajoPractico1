@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Projects/Common/api-rules" value="PREVIEW" />
+        <entry key="$USER_HOME$/Projects/Deuda/billing-migrator" value="PREVIEW" />
+        <entry key="$USER_HOME$/Projects/Deuda/fury_billing-migrator" value="PREVIEW" />
+        <entry key="$USER_HOME$/Projects/Deuda/fury_billing-mr-belly" value="PREVIEW" />
+        <entry key="$USER_HOME$/Projects/Deuda/fury_billing-purge" value="PREVIEW" />
+        <entry key="$USER_HOME$/Projects/PL/fury_fbi-the-wall-sap" value="PREVIEW" />
+        <entry key="$USER_HOME$/Projects/PL/fury_invoice-fbm-assemble" value="PREVIEW" />
+        <entry key="$USER_HOME$/Projects/example/clean-architecture-demo" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+</project>
