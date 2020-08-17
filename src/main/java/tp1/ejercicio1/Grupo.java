@@ -1,4 +1,4 @@
-package tp1.domain;
+package tp1.ejercicio1;
 
 public class Grupo {
 	private String nombre;
@@ -31,10 +31,15 @@ public class Grupo {
 
 	public void agregarIntegrante(String nombreIntegrante) {
 		if (!existeIntegrante(nombreIntegrante)) {
-			for (int i=0; i<this.integrantes.length; i++) {
+			int i = 0;
+			boolean agregado = false;
+
+			while (i < this.integrantes.length && !agregado) {
 				if(this.integrantes[i] == null) {
 					this.integrantes[i] = nombreIntegrante;
+					agregado = true;
 				}
+				i++;
 			}
 		}
 	}
@@ -44,7 +49,7 @@ public class Grupo {
 		boolean result = false;
 
 		while (i < this.integrantes.length && !result) {
-			if (this.integrantes[i].equalsIgnoreCase(nombreIntegrante)) {
+			if (this.integrantes[i] == nombreIntegrante) {
 				result = true;
 			}
 			i++;
@@ -56,7 +61,7 @@ public class Grupo {
 		int numInt = -1;
 		int i=0;
 
-		while (i < integrantes.length && !integrantes[i].equalsIgnoreCase(nombreIntegrante)) {
+		while (i < integrantes.length && integrantes[i] != nombreIntegrante) {
 			i++;
 		}
 

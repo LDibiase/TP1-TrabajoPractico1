@@ -1,6 +1,4 @@
-package tp1;
-
-import tp1.domain.Grupo;
+package tp1.ejercicio1;
 
 public class Main {
 
@@ -35,7 +33,7 @@ public class Main {
 		String nombre = grupo.buscarIntegrante(nombreABuscar);
 
 		if (nombre != null) {
-			System.out.println("El integrante fue agregado con éxito");
+			System.out.println("El integrante: " + nombreABuscar + " fue agregado con éxito");
 		} else {
 			System.out.println("El integrante no fue agregado");
 		}
